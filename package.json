@@ -11,6 +11,7 @@
     "android:apk": "cd android && ./gradlew assembleRelease",
     "ios": "expo run:ios",
     "ios:device": "expo run:ios --device",
+    "ios:device:release": "expo run:ios --device --configuration Release",
     "ios:release": "expo run:ios --configuration Release",
     "web": "expo start --web",
     "web:build": "expo export --platform web",
